@@ -1,0 +1,8 @@
+/* AG(Kw=1 & w=I	-> AX((Kw=1 & w=I) | (Kw=0 & w=I))) */
+SPEC AG(wI & weI	->	!reI &
+				AX((wI & weI) | (PWJ & weI)))
+/* AG(Kw=0 & w=I & r!=J -> AX((Kw=0 & w=I) | (Kw=1 & w=J))) */
+/* AG(Kw=0 & w=I & r=J  -> AX(Kw=0 & w=I)) */
+/* AG(Lr=1 & r=I        -> AX((Lr=1 & r=I) | (Lr=0 & r=I))) */
+/* AG(Lr=0 & r=I & w!=J -> AX((Lr=0 & r=I) | (Lr=1 & r=J))) */
+/* AG(Lr=0 & r=I & w=J  -> AX((Lr=0 & r=I) | (Lr=1 & r=I))) */
